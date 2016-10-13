@@ -6,7 +6,7 @@ import org.lognet.springboot.grpc.GRpcService;
 /**
  * @author Zoltan Altfatter
  */
-@GRpcService
+@GRpcService(interceptors = { LogInterceptor.class })
 public class CalculatorService extends CalculatorGrpc.CalculatorImplBase {
 
     @Override
