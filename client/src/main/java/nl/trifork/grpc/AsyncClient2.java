@@ -42,7 +42,7 @@ public class AsyncClient2 {
 
             @Override
             public void onCompleted() {
-
+                System.out.println("-onCompleted called");
             }
         });
 
