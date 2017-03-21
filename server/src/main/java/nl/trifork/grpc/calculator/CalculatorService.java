@@ -1,14 +1,11 @@
-package nl.trifork.grpc;
+package nl.trifork.grpc.calculator;
 
 import io.grpc.stub.StreamObserver;
-import nl.trifork.grpc.examples.CalculatorGrpc.CalculatorImplBase;
-import nl.trifork.grpc.examples.CalculatorRequest;
-import nl.trifork.grpc.examples.CalculatorResponse;
 
 /**
  * @author Zoltan Altfatter
  */
-public class CalculatorService extends CalculatorImplBase {
+public class CalculatorService extends CalculatorGrpc.CalculatorImplBase {
 
     @Override
     public void calculate(CalculatorRequest request, StreamObserver<CalculatorResponse> responseObserver) {

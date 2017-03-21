@@ -1,9 +1,8 @@
-package nl.trifork.grpc;
+package nl.trifork.grpc.calculator;
 
 import io.grpc.stub.StreamObserver;
-import nl.trifork.grpc.examples.BidirectionalStreamingCalculatorGrpc.BidirectionalStreamingCalculatorImplBase;
-import nl.trifork.grpc.examples.CalculatorRequest;
-import nl.trifork.grpc.examples.CalculatorResponse;
+
+import static nl.trifork.grpc.calculator.BidirectionalStreamingCalculatorGrpc.*;
 
 /**
  * @author Zoltan Altfatter

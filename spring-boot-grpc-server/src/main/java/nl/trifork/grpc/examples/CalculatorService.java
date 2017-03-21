@@ -1,6 +1,9 @@
 package nl.trifork.grpc.examples;
 
 import io.grpc.stub.StreamObserver;
+import nl.trifork.grpc.calculator.CalculatorGrpc;
+import nl.trifork.grpc.calculator.CalculatorRequest;
+import nl.trifork.grpc.calculator.CalculatorResponse;
 import org.lognet.springboot.grpc.GRpcService;
 
 /**

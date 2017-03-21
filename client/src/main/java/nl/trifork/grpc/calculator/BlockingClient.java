@@ -1,10 +1,7 @@
-package nl.trifork.grpc;
+package nl.trifork.grpc.calculator;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import nl.trifork.grpc.examples.CalculatorGrpc;
-import nl.trifork.grpc.examples.CalculatorRequest;
-import nl.trifork.grpc.examples.CalculatorResponse;
 
 /**
  * @author Zoltan Altfatter

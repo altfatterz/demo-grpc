@@ -1,12 +1,9 @@
-package nl.trifork.grpc;
+package nl.trifork.grpc.calculator;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
-import nl.trifork.grpc.examples.CalculatorGrpc;
-import nl.trifork.grpc.examples.CalculatorRequest;
-import nl.trifork.grpc.examples.CalculatorResponse;
 
 import java.util.concurrent.TimeUnit;
 
@@ -42,7 +39,7 @@ public class AsyncClient2 {
 
             @Override
             public void onCompleted() {
-                System.out.println("-onCompleted called");
+                System.out.println("onCompleted called");
             }
         });
 

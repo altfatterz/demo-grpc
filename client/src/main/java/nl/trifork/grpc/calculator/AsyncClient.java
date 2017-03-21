@@ -1,4 +1,4 @@
-package nl.trifork.grpc;
+package nl.trifork.grpc.calculator;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
@@ -6,9 +6,6 @@ import com.google.common.util.concurrent.ListenableFuture;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.Status;
-import nl.trifork.grpc.examples.CalculatorGrpc;
-import nl.trifork.grpc.examples.CalculatorRequest;
-import nl.trifork.grpc.examples.CalculatorResponse;
 
 import java.util.concurrent.TimeUnit;
 
